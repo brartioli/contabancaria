@@ -1,6 +1,6 @@
 package conta.model;
 
-public class Conta {
+public abstract class Conta {
 
 	private int numero;
 	private int agencia;
@@ -72,7 +72,7 @@ public class Conta {
 		this.setSaldo(this.getSaldo() + valor);
 	}
 
-	public void vizualizar() {
+	public void visualizar() {
 
 		String tipo = "";
 
